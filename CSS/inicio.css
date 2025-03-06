@@ -1,0 +1,193 @@
+.clsMenu {
+  width: 40px;
+  height: 100px;
+  border-radius: 15px;
+  border: none;
+  position: absolute;
+  top: 40%;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3);
+}
+
+.rightCont,
+.leftCont {
+  background: linear-gradient(200deg, #53466f 20%, rgba(223, 212, 230, 0.9960784314) 20%);
+  background-size: 100% 200%;
+  position: fixed;
+  height: 100vh;
+  width: 20%;
+  top: 100px;
+  z-index: 10;
+  display: flex;
+  transition: 1s;
+}
+.rightCont hr,
+.leftCont hr {
+  color: white;
+}
+
+.leftCont {
+  left: 0;
+}
+.leftCont .clsMenu {
+  right: 0;
+  margin-right: -20px;
+}
+
+.rightCont {
+  right: 0;
+}
+.rightCont .clsMenu {
+  left: 0;
+  margin-left: -20px;
+}
+
+.centerCont {
+  position: absolute;
+  top: 100px;
+  width: 100%;
+  display: flex;
+  background-color: white;
+  opacity: 1;
+  background-image: repeating-radial-gradient(circle at 0 0, transparent 0, #eeeeee 40px), repeating-linear-gradient(rgba(255, 255, 255, 0.3333333333), #ffffff);
+}
+.centerCont .contenido {
+  width: 100%;
+  margin-right: 20%;
+  margin-left: 20%;
+  padding: 30px;
+  transition: 1s;
+}
+
+.searchDiv {
+  display: inline-flex;
+  width: 100%;
+  box-shadow: 0px 0px 30px -11px rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+}
+.searchDiv .SeekInput {
+  padding-left: 15px;
+  width: 100%;
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+
+.Cerrado {
+  width: 0;
+}
+
+.contenidoMenu {
+  overflow-x: hidden;
+  margin: 30px;
+  width: 100%;
+}
+
+.menuLeftRemoved {
+  margin-left: 0 !important;
+}
+
+.menuRightRemoved {
+  margin-right: 0 !important;
+}
+
+.iconTitle {
+  display: inline-flex;
+  align-items: start;
+}
+.iconTitle span {
+  font-size: 50px;
+  color: white;
+}
+.iconTitle .tituloCentro {
+  color: black;
+}
+.iconTitle h2 {
+  font-size: 40px;
+  font-weight: 400;
+  color: white;
+}
+
+/*-- FEED --*/
+.itemFeed {
+  border-radius: 15px;
+  padding: 30px 30px 0 30px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.2);
+  margin-bottom: 50px;
+}
+.itemFeed .itemHead {
+  display: inline-flex;
+  width: 100%;
+}
+.itemFeed .itemHead img {
+  width: 80px;
+  height: 80px;
+  margin-right: 30px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.itemFeed .itemHead .headInfo {
+  margin-right: 20px;
+}
+.itemFeed .itemHead hr {
+  flex-grow: 1;
+}
+.itemFeed .itemBody {
+  padding: 30px 30px 10px 30px;
+}
+.itemFeed .itemBody .row .imagenContainer {
+  margin-bottom: 20px;
+}
+.itemFeed .itemBody .row .imagenContainer .cuadrado {
+  position: relative;
+  width: 100%;
+  padding-bottom: 70%;
+}
+.itemFeed .itemBody .row .imagenContainer .cuadrado img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+  margin-top: 15px;
+}
+.itemFeed .itemFooter {
+  padding: 0px 30px 30px 30px;
+}
+.itemFeed .itemFooter button {
+  background-color: transparent;
+  border: none;
+  border-radius: 50%;
+  color: black;
+  transition: 0.3s;
+  width: 40px;
+  height: 40px;
+}
+.itemFeed .itemFooter button:hover {
+  color: rgb(0, 0, 0);
+  background-color: rgb(216, 216, 216);
+}
+
+.buttonContainer {
+  margin-top: 20px;
+}
+.buttonContainer button {
+  width: 100%;
+  margin: 5px 0 5px 0;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 8px 0 8px 0;
+  transition: 0.4s;
+}
+.buttonContainer button:hover {
+  background-color: rgb(202, 202, 202);
+}/*# sourceMappingURL=inicio.css.map */

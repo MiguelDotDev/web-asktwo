@@ -1,0 +1,114 @@
+.imagenPerfil {
+  border-radius: 50%;
+  width: 450px;
+  margin-top: -225px;
+  box-shadow: 1px 1px 47px 0px rgba(0, 0, 0, 0.75);
+  border: 10px white solid;
+}
+
+.PerfilContenedor {
+  margin: 0 13% 0 13%;
+  padding: 0 100px 50px 100px;
+  box-shadow: 0px 0px 55px -4px rgba(0, 0, 0, 0.31);
+  background-color: rgb(255, 255, 255);
+}
+
+.contenedorTotal {
+  margin-top: 350px;
+  border-top: 10px solid rgb(209, 187, 212);
+  background-color: #e1c2e4;
+  background-image: repeating-radial-gradient(circle at 0 0, transparent 0, #f9f9f9 40px), repeating-linear-gradient(rgba(235, 235, 235, 0.3333333333), #ebebeb);
+}
+
+.divisorNombre {
+  margin: 0 200px 0 200px;
+}
+
+.descripcionPerfil {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  font-style: normal;
+}
+
+.nombreTXT {
+  margin-top: 50px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 60px;
+  font-style: normal;
+}
+
+.subtituloTxt {
+  margin-top: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  font-style: normal;
+}
+
+.txtAsesorInfoTitle {
+  margin: 50px 0 50px 0;
+}
+
+.cardAsesoria {
+  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.185);
+  border-radius: 10px;
+  padding: 20px;
+  background-color: white;
+  transition: 0.4s;
+}
+
+.cardAsesoria:hover {
+  box-shadow: 0px 0px 10px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  margin-top: -20px !important;
+  margin-bottom: 20px;
+}
+
+.bgImg {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 100px;
+  z-index: -15;
+}
+
+.AsesoriasMenu .row {
+  margin-bottom: 40px;
+}
+
+.vidAsesModal {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.containerContacto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.containerContacto ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 100%;
+}
+.containerContacto ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.containerContacto ul li span, .containerContacto ul li i {
+  font-size: 40px;
+  margin-right: 10px;
+}
+.containerContacto ul li a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  font-size: 25px;
+  font-style: normal;
+  color: black;
+}/*# sourceMappingURL=perfil.css.map */

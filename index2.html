@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Asesores Par</title>
+    <link rel="stylesheet" href="CSS/nav.css">
+    <link rel="stylesheet" href="CSS/inicio.css">
+    <link rel="stylesheet" href="CSS/busqueda.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <!-- JS Menus Laterales -->
+    <script src="JS/MenusLaterales.js"></script>
+    <script src="JS/seek.js"></script>
+
+    <!-- Google Icons -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,300,0,0" />
+</head>
+
+<body>
+    <ul class="navCustom">
+        <img src="IMG/Recursos/logo.png" class="logo">
+
+        <li class="navItem">
+            <a class="txtItem" href="#">Asesores</a>
+        </li>
+
+        <li class="navItem">
+            <a class="txtItem" href="index.html">Comunidad</a>
+        </li>
+
+        <div class="dropdown usr">
+            <img src="https://e7.pngegg.com/pngimages/507/702/png-clipart-profile-icon-simple-user-icon-icons-logos-emojis-users-thumbnail.png"
+                class="dropbtn" />
+            <div class="dropdown-content dropRight">
+                <a href="perfil.html">Mi Perfil</a>
+                <a href="historyAsesorias.html">Mis Asesorias</a>
+            </div>
+        </div>
+    </ul>
+
+    <!-- SECCIONES -->
+    <div class="leftCont" id="leftCont">
+        <div class="contenidoMenu">
+            <div class="iconTitle">
+                <span class="material-symbols-rounded">group</span>
+                <h2>Grupos</h2>
+            </div>
+            <hr>
+            <div class="searchDiv">
+                <span class="material-symbols-rounded">search</span>
+                <input type="text" class="SeekInput" placeholder="Busca Grupos...">
+            </div>
+            <div class="buttonContainer">
+                <button>Algebra </button>
+                <button>Programación Orientada a Objetos</button>
+                <button>Calculo Integral</button>
+                <button>Aplicaciones web</button>
+                <button>Inglés</button>
+                <button>Formacion Sociocultural</button>
+                <button>Probabilidad y Estadistica</button>
+                <button>Calculo Diferencial</button>
+            </div>
+
+        </div>
+        <hr>
+        <button class="clsMenu" id="btnClsLeft"><span
+                class="material-symbols-rounded">keyboard_double_arrow_left</span></button>
+    </div>
+    <div class="centerCont">
+        <div class="contenido" id="menuCental">
+
+
+            <div class="searchDiv">
+                <span class="material-symbols-rounded">search</span>
+                <input type="text" class="SeekInput" value="Calculo Diferencial"
+                    placeholder="Busca un Grupo, un Asesor o una Publicacion...">
+            </div>
+
+
+            <hr>
+
+            <div class="contentFeed mt-5 ms-5 me-5">
+                <div class="headSeek text-start">
+                    <h2>Resultados de la Busqueda</h2>
+                    <p>Calculo Diferencial</p>
+                    <div class="inline-flex">
+                        <button class="btn btn-outline-dark" id="btnPublicaciones">Publicaciones</button>
+                        <button class="btn btn-outline-dark" id="btnGrupo">Grupo</button>
+                        <button class="btn btn-outline-dark" id="btnAsesores">Asesores</button>
+                        <button class="btn btn-outline-dark" id="btnTodo">Todo</button>
+                    </div>
+                    <hr>
+                </div>
+
+                <div class="itemBlog publicacion">
+                    <div class="headItemBlog">
+                        <img
+                            src="https://www.dzoom.org.es/wp-content/uploads/2020/02/portada-foto-perfil-redes-sociales-consejos.jpg">
+                        <div>
+                            <div class="mt-2 starAsesor">
+                                <h5>Sofía Flores Herrera</h5>
+                                <ion-icon name="star"></ion-icon>
+                                <ion-icon name="star"></ion-icon>
+                                <ion-icon name="star"></ion-icon>
+                                <ion-icon name="star"></ion-icon>
+                                <ion-icon name="star-half"></ion-icon>
+                            </div>
+                            <p>Asesor<br>3TIDSM-G1</p>
+
+                        </div>
+
+                    </div>
+                    <hr>
+                    <div class="bodyItemBlog">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque fugit, repudiandae eos
+                            dolorem vitae libero nesciunt voluptatum modi a magnam. Eveniet sed consequatur pariatur
+                            eum exercitationem obcaecati iste facilis? Minus!</p>
+                    </div>
+                </div>
+                <div class="itemBlog comunidadItem">
+                    <div class="text-center">
+                        <h2>Calculo Diferencial</h2>
+                        <h5>Grupo</h5>
+                        <hr>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores at vitae, sequi deleniti
+                            rerum suscipit repellat consequatur nobis cupiditate, dolor accusantium iusto veritatis nam
+                            voluptatibus debitis. Modi adipisci cum cumque.</p>
+                    </div>
+                </div>
+                <div class="itemBlog asesorItem">
+                    <div class="headItemBlog">
+                        <img class="imgUsuario" src="https://www.clarin.com/2024/07/04/uteodLeuh_2000x1500__1.jpg">
+                        <div>
+                            <div class="mt-2 starAsesor">
+                                <h3>Fernanda Ramírez Sánchez</h3>
+                                <ion-icon name="star"></ion-icon>
+                                <ion-icon name="star"></ion-icon>
+                                <ion-icon name="star"></ion-icon>
+                                <ion-icon name="star"></ion-icon>
+                                <ion-icon name="star-half"></ion-icon>
+                            </div>
+
+                            <hr>
+                            <p>Asesor<br>3TIDSM-G1</p>
+                            <ul>
+                                <li>Calculo Diferencial</li>
+                                <li>Programación Orientada a Objetos</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="itemBlog publicacion">
+                    <div class="headItemBlog">
+                        <img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVkz3sMnUJmvkNyaaxkgVpEIp0SRzaZQWITw&s">
+                        <div>
+                            <h5>Alejandro Gómez Ramírez</h5>
+                            <p>Alumno<br>3TIDSM-G1</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="bodyItemBlog">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque fugit, repudiandae eos
+                            dolorem vitae libero nesciunt voluptatum modi a magnam. Eveniet sed consequatur pariatur
+                            eum exercitationem obcaecati iste facilis? Minus!</p>
+                    </div>
+                </div>
+                <div class="itemBlog comunidadItem">
+                    <div class="text-center">
+                        <h2>Algebra General</h2>
+                        <h5>Grupo</h5>
+                        <hr>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores at vitae, sequi deleniti
+                            rerum suscipit repellat consequatur nobis cupiditate, dolor accusantium iusto veritatis nam
+                            voluptatibus debitis. Modi adipisci cum cumque.</p>
+                    </div>
+                </div>
+                <div class="itemBlog publicacion">
+                    <div class="headItemBlog">
+                        <img
+                            src="https://i0.wp.com/lamiradafotografia.es/wp-content/uploads/2014/07/foto-perfil-juego.jpg">
+                        <div>
+                            <h5>Carlos Martínez López</h5>
+                            <p>Alumno<br>3TIDSM-G1</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="bodyItemBlog">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque fugit, repudiandae eos
+                            dolorem vitae libero nesciunt voluptatum modi a magnam. Eveniet sed consequatur pariatur
+                            eum exercitationem obcaecati iste facilis? Minus!</p>
+                    </div>
+                </div>
+                <div class="itemBlog asesorItem">
+                    <div class="headItemBlog">
+                        <img class="imgUsuario"
+                            src="https://i.pinimg.com/236x/b9/f4/eb/b9f4eb53ee86a39c0ee0d34e6c973179.jpg">
+                        <div>
+                            <div class="mt-2 starAsesor">
+                                <h3>Ricardo Sánchez Morales</h3>
+                                <ion-icon name="star"></ion-icon>
+                                <ion-icon name="star"></ion-icon>
+                                <ion-icon name="star"></ion-icon>
+                                <ion-icon name="star"></ion-icon>
+                                <ion-icon name="star-half"></ion-icon>
+                            </div>
+
+                            <hr>
+                            <p>Asesor<br>3TIDSM-G1</p>
+                            <ul>
+                                <li>Calculo Diferencial</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="itemBlog asesorItem">
+                    <div class="headItemBlog">
+                        <img class="imgUsuario"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDJzEaxLN-jGRYYUO65pWu7Q9GXoNt4LUSSA&s">
+                        <div>
+                            <div class="mt-2 starAsesor">
+                                <h3>Miguel Angel Nuñez Gomez</h3>
+                                <ion-icon name="star"></ion-icon>
+                                <ion-icon name="star"></ion-icon>
+                                <ion-icon name="star"></ion-icon>
+                                <ion-icon name="star"></ion-icon>
+                                <ion-icon name="star-half"></ion-icon>
+                            </div>
+                            <hr>
+                            <p>Asesor<br>3TIDSM-G1</p>
+                            <ul>
+                                <li>Calculo Diferencial</li>
+                                <li>Inglés</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="itemBlog comunidadItem">
+                    <div class="text-center">
+                        <h2>Calculo Integral</h2>
+                        <h5>Grupo</h5>
+                        <hr>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores at vitae, sequi deleniti
+                            rerum suscipit repellat consequatur nobis cupiditate, dolor accusantium iusto veritatis nam
+                            voluptatibus debitis. Modi adipisci cum cumque.</p>
+                    </div>
+                </div>
+                <div class="itemBlog publicacion">
+                    <div class="headItemBlog">
+                        <img
+                            src="https://media.licdn.com/dms/image/C4D03AQFvs51-fOx04A/profile-displayphoto-shrink_200_200/0/1521068262854?e=2147483647&v=beta&t=v1VLWLyxPA1T3yiI5rNbcMZh7RfUT40VSMFX-_E0e_U">
+                        <div>
+                            <div class="mt-2 starAsesor">
+                                <h5>Miguel Torres Fernández</h5>
+                                <ion-icon name="star"></ion-icon>
+                                <ion-icon name="star"></ion-icon>
+                                <ion-icon name="star"></ion-icon>
+                                <ion-icon name="star"></ion-icon>
+                                <ion-icon name="star-half"></ion-icon>
+                            </div>
+                            <p>Asesor<br>3TIDSM-G1</p>
+
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="bodyItemBlog">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque fugit, repudiandae eos
+                            dolorem vitae libero nesciunt voluptatum modi a magnam. Eveniet sed consequatur pariatur
+                            eum exercitationem obcaecati iste facilis? Minus!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="rightCont" id="rightCont">
+        <div class="contenidoMenu">
+            <div class="iconTitle">
+                <span class="material-symbols-rounded">newspaper</span>
+                <h2>Novedades</h2>
+            </div>
+            <hr>
+
+        </div>
+        <button class="clsMenu" id="btnClsRight"><span class="material-symbols-rounded">double_arrow</span></button>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

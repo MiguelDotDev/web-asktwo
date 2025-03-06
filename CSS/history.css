@@ -1,0 +1,43 @@
+.contenedorAll {
+  background-color: #e1c2e4;
+  background-image: repeating-radial-gradient(circle at 0 0, transparent 0, #f9f9f9 40px), repeating-linear-gradient(rgba(235, 235, 235, 0.3333333333), #ebebeb);
+}
+.contenedorAll .container {
+  background-color: white;
+  padding-top: 200px;
+  padding-bottom: 100px;
+  min-height: 100vh;
+  box-shadow: 0px 0px 55px -4px rgba(0, 0, 0, 0.31);
+}
+
+.titlePage {
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  font-size: 50px;
+  text-align: center;
+  font-style: normal;
+  margin-bottom: 50px;
+}
+
+.contenedorLista {
+  margin: 0 200px 0 200px;
+}
+.contenedorLista .itemLista {
+  display: inline-flex;
+  align-items: center;
+}
+.contenedorLista .itemLista button {
+  background-color: transparent;
+  border: none;
+  border-radius: 50%;
+  transition: 0.4s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+.contenedorLista .itemLista button:hover {
+  background-color: #dbdbdb;
+}/*# sourceMappingURL=history.css.map */

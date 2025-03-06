@@ -1,0 +1,29 @@
+.esconder {
+  display: none;
+}
+
+.itemBlog {
+  background-color: white;
+  box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  margin-top: 50px;
+  padding: 40px;
+}
+.itemBlog .headItemBlog {
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+}
+.itemBlog .headItemBlog img {
+  border-radius: 50%;
+  box-shadow: 5px 5px 9px 0px rgba(0, 0, 0, 0.3);
+  width: 100px;
+  height: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-right: 30px;
+}
+.itemBlog .headItemBlog .imgUsuario {
+  width: 200px !important;
+  height: 200px !important;
+}/*# sourceMappingURL=busqueda.css.map */
